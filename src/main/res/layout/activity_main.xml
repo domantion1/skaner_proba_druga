@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ScrollView
 
+        android:layout_above="@+id/linear_holder"
+
         android:layout_width="match_parent"
 
         android:layout_height="match_parent"
-
-        android:layout_above="@+id/linear_holder"
         android:layout_alignParentTop="true"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="7dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp">
 
@@ -21,7 +20,7 @@
             android:id="@+id/text_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/elo_wariatku_wariaciku_daj_zdj_cie_lub_sam_zr_b_i_mi_przeslij_b"
+            android:text="Elo wariatku wariaciku, daj zdjęcie lub sam zrób i mi przeslij B)"
             android:textColor="@color/cardview_dark_background"
             android:textSize="22sp" />
 
@@ -43,18 +42,15 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:layout_weight="1"
-            android:text="@string/zrob_zdjencie"
-            style="?android:attr/buttonBarButtonStyle"
-            tools:ignore="VisualLintButtonSize" />
+            android:text="zrob zdjencie" />
         <Button
             android:visibility="gone"
             android:id="@+id/galeriaxd"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="@string/galeria"
+            android:text="galeria"
             android:layout_weight="1"
-            android:layout_margin="8dp"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:layout_margin="8dp"/>
     </LinearLayout>
 
 
