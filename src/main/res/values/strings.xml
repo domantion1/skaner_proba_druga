@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">skaner_proba_druga</string>
+    <string name="elo_wariatku_wariaciku_daj_zdj_cie_lub_sam_zr_b_i_mi_przeslij_b">Elo wariatku wariaciku, daj zdjęcie lub sam zrób i mi przeslij B)</string>
+    <string name="zrob_zdjencie">zrob zdjencie</string>
+    <string name="galeria">galeria</string>
 </resources>
